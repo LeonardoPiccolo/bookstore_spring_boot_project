@@ -24,7 +24,7 @@ public class BookController {
 	
 	@GetMapping("/")
 	public String home() {
-		return "home";
+		return "index";
 	}
 	
 	@GetMapping("/book_register")
